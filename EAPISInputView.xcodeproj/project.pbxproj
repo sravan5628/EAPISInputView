@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		88378238205AAEB500434B5D /* EAPISInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88378236205AAEB500434B5D /* EAPISInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88378240205AAEEC00434B5D /* EAPISInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8837823E205AAEEC00434B5D /* EAPISInputView.xib */; };
+		88378241205AAEEC00434B5D /* EAPISInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8837823F205AAEEC00434B5D /* EAPISInputView.swift */; };
+		8837824A205AD10000434B5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88378249205AD10000434B5D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		88378233205AAEB500434B5D /* EAPISInputView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EAPISInputView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88378236205AAEB500434B5D /* EAPISInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAPISInputView.h; sourceTree = "<group>"; };
 		88378237205AAEB500434B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8837823E205AAEEC00434B5D /* EAPISInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EAPISInputView.xib; sourceTree = "<group>"; };
+		8837823F205AAEEC00434B5D /* EAPISInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPISInputView.swift; sourceTree = "<group>"; };
+		88378249205AD10000434B5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,9 @@
 			isa = PBXGroup;
 			children = (
 				88378236205AAEB500434B5D /* EAPISInputView.h */,
+				8837823F205AAEEC00434B5D /* EAPISInputView.swift */,
+				8837823E205AAEEC00434B5D /* EAPISInputView.xib */,
+				88378249205AD10000434B5D /* Assets.xcassets */,
 				88378237205AAEB500434B5D /* Info.plist */,
 			);
 			path = EAPISInputView;
@@ -95,6 +104,7 @@
 				TargetAttributes = {
 					88378232205AAEB500434B5D = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -121,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8837824A205AD10000434B5D /* Assets.xcassets in Resources */,
+				88378240205AAEEC00434B5D /* EAPISInputView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88378241205AAEEC00434B5D /* EAPISInputView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +266,7 @@
 		8837823C205AAEB500434B5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -266,6 +280,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ecknologic.EAPISInputView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -274,6 +289,7 @@
 		8837823D205AAEB500434B5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

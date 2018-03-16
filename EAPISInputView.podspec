@@ -17,14 +17,14 @@ Pod::Spec.new do |s|
 
   s.name         = "EAPISInputView"
   s.version      = "1.0"
-  s.summary      = "A short description of EAPISInputView."
+  s.summary      = "The main objective of this repository is, handling error conditions based on input."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "this component is used for to validate errors and input type"
+  s.description  = "this is the reusabet component is used for to validate errors and input type, and showing error filed as a red boarder color"
 
   s.homepage     = "http://raywenderlich.com"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"

@@ -91,7 +91,8 @@ Pod::Spec.new do |s|
 
   s.source_files  = "EAPISInputView", "EAPISInputView/**/*.{h,m,swift}"
   s.exclude_files = "EAPISInputView/Exclude"
-
+  s.pod_target_xcconfig = { "SWIFT_VERSION" => "4.0" }
+  s.swift_version = "4.0"
   # s.public_header_files = "Classes/**/*.h"
 
 

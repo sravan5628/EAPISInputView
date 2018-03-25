@@ -104,10 +104,11 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resources = "EAPISInputView/Resources/EAPISInputView.xib"
+  # s.resources = "EAPISInputView/Resources/EAPISInputView.xib"
   s.resource_bundles = {
-      'EAPISInputView' => ['EAPISInputView/Resources/*.{storyboard,xib}']
-    }  # s.resources = "Resources/*.png"
+      'EAPISInputView' => ['EAPISInputView/Resources/**/*.{storyboard,xib}']
+    }
+     # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

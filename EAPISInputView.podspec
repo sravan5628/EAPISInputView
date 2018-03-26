@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
 
   # s.resources = "EAPISInputView/Resources/EAPISInputView.xib"
   s.resource_bundles = {
-      'EAPISInputView' => ['EAPISInputView/Resources/**/*.{storyboard,xib}']
+      'EAPISInputView' => ['EAPISInputView/Resources/**/*.{storyboard,xib}','EAPISInputView/Assets.xcassets']
     }
      # s.resources = "Resources/*.png"
 

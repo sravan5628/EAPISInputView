@@ -10,7 +10,6 @@
 		88378238205AAEB500434B5D /* EAPISInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88378236205AAEB500434B5D /* EAPISInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88378240205AAEEC00434B5D /* EAPISInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8837823E205AAEEC00434B5D /* EAPISInputView.xib */; };
 		88378241205AAEEC00434B5D /* EAPISInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8837823F205AAEEC00434B5D /* EAPISInputView.swift */; };
-		8837824A205AD10000434B5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88378249205AD10000434B5D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,7 +18,6 @@
 		88378237205AAEB500434B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8837823E205AAEEC00434B5D /* EAPISInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EAPISInputView.xib; sourceTree = "<group>"; };
 		8837823F205AAEEC00434B5D /* EAPISInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPISInputView.swift; sourceTree = "<group>"; };
-		88378249205AD10000434B5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +53,6 @@
 				88378236205AAEB500434B5D /* EAPISInputView.h */,
 				8837823F205AAEEC00434B5D /* EAPISInputView.swift */,
 				88C6F19B205BE7CD00ED5582 /* Resources */,
-				88378249205AD10000434B5D /* Assets.xcassets */,
 				88378237205AAEB500434B5D /* Info.plist */,
 			);
 			path = EAPISInputView;
@@ -139,7 +136,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8837824A205AD10000434B5D /* Assets.xcassets in Resources */,
 				88378240205AAEEC00434B5D /* EAPISInputView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
